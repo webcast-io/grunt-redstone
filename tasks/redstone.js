@@ -36,6 +36,7 @@ module.exports = function(grunt) {
     redstone.runCommands(runCommands || options.runCommands || [], function(err) {
       if(err) { return done(err); }
       grunt.log.writeln('Commands: "' + options.runCommands.join(', ') + '" run successfully.');
+      done();
     });
 
   });
