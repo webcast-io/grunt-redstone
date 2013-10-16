@@ -55,12 +55,14 @@ module.exports = function(grunt) {
 
     // Execute Redstone
     //
-    var self = this;
     redstone.runCommands(this.data.commandsInOrder, function(err) {
-      grunt.log.writeln(self.target + ': ' + self.data);
 
-      if(err) { return done(err); }
-      grunt.log.writeln('Commands: "' + self.options.commandsInOrder.join(', ') + '" run successfully.');
+      if(err) {
+        return done(err);
+      } else {
+        grunt.log.writeln('Deploy ran successfully');
+        done();
+      }
     });
 
 
