@@ -1,7 +1,7 @@
 {
   "name": "grunt-redstone",
   "description": "deploying Node.js applications, heavily influenced by capistrano",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://github.com/sc-live/grunt-redstone",
   "author": [
     "Axisto Media Ltd <info@axisto.com>",
