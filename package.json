@@ -1,23 +1,23 @@
 {
   "name": "grunt-redstone",
   "description": "deploying Node.js applications, heavily influenced by capistrano",
-  "version": "0.1.4",
-  "homepage": "https://github.com/sc-live/grunt-redstone",
+  "version": "0.1.5",
+  "homepage": "https://github.com/webcast-io/grunt-redstone",
   "author": [
     "Axisto Media Ltd <info@axisto.com>",
     "Ben Evans <ben@bensbit.co.uk>"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/sc-live/grunt-redstone.git"
+    "url": "git://github.com/webcast-io/grunt-redstone.git"
   },
   "bugs": {
-    "url": "https://github.com/sc-live/grunt-redstone/issues"
+    "url": "https://github.com/webcast-io/grunt-redstone/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/sc-live/grunt-redstone/blob/master/LICENSE-MIT"
+      "url": "https://github.com/webcast-io/grunt-redstone/blob/master/LICENSE-MIT"
     }
   ],
   "main": "Gruntfile.js",
