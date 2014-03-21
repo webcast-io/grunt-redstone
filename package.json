@@ -33,6 +33,6 @@
     "gruntplugin"
   ],
   "dependencies": {
-    "redstone": "0.0.6"
+    "redstone": "0.0.8"
   }
 }
